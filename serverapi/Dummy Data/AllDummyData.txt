@@ -1,0 +1,78 @@
+STUFF TO LOOK AT: when we delete a primary generated column it doesnt go back to 0 (ex food_id: 1 deleted, next thing we put in is now food_id: 2
+
+
+Food Stuffs
+[
+    {
+        "itemName": "Salmon Sashimi (6 pcs)",
+        "itemDescription": "Thinly sliced pieces of fresh salmon. One order comes with six pieces",
+        "itemType": "Sashimi",
+        "price": 5.99,
+
+    },
+   {
+        "itemName": "Surf Clam Sushi (2 pcs)",
+        "itemDescription": "Thinly sliced raw surf clam served atop a small bed of pressed sushi rice. One order comes with two pieces",
+        "itemType": "Sushi",
+        "price": 2.95,
+
+    },
+    {
+        "itemName": "Lucky Maki Roll (8 pcs)",
+        "itemDescription": "A delicious combination of tempura crumbs, salmon, white tuna, snapper, and crab meat, drizzled with a mango sauce. One order comes with eight pieces",
+        "itemType": "Maki",
+        "price": 10.95,
+
+    }
+]
+Persons
+[
+    {
+        "person_id": 1,
+        "firstName": "John",
+        "lastName": "Smith",
+        "address": "2530 Lorne Ave",
+        "phone":  "306-717-9923",
+        "comments": "I hate Sushi why do I keep eating this",
+        "email": "John@hotmail.com",
+        "isAdmin": false
+    },
+    {
+        "person_id": 2,
+        "firstName": "Sally",
+        "lastName": "Smith",
+        "address": "2530 Lorne Ave",
+        "phone":  "306-717-8030",
+        "comments": "Screw John I love sushi",
+        "email": "Sally@hotmail.com",
+        "isAdmin": false
+    },
+    {
+        "person_id": 3,
+        "firstName": "Judge",
+        "lastName": "Dredd",
+        "address": "Mega-City One",
+        "phone":  "306-616-9023",
+        "comments": "I am the LAW",
+        "email": "IAmtheLaw@hotmail.com",
+        "isAdmin": true
+    }
+]
+Drinks
+[
+    {
+        "itemName": "Sprite(355 ml)",
+        "itemDescription": "Choose from a selection of deliciously refreshing canned pop flavours",
+        "price": 2.50,
+    },
+   {
+        "itemName": "Water(500ml)",
+        "itemDescription": "A cold and refreshing bottle of water",
+        "price": 3.50,
+    },
+    {
+        "itemName": "Green Tea",
+        "itemDescription": "A herbal blend that lifts the spirits",
+        "price": 3.00,
+    }
+]

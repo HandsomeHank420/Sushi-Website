@@ -1,0 +1,33 @@
+{
+	"persons":[
+		{
+			"firstName": "John",
+			"lastName": "Smith",
+			"address": "2530 Lorne Ave",
+			"phone":  "306-717-9923",
+			"comments": "I hate Sushi why do I keep eating this",
+			"email": "John@hotmail.com",
+			"password": "1Bringusbrongus",
+		},
+		{
+			"firstName": "Sally",
+			"lastName": "Smith",
+			"address": "2530 Lorne Ave",
+			"phone":  "306-717-8030",
+			"comments": "Screw John I love sushi",
+			"email": "Sally@hotmail.com",
+			"password": "2Bringusbrongus",
+			"isAdmin": false
+		},
+		{
+			"firstName": "Judge",
+			"lastName": "Dredd",
+			"address": "Mega-City One",
+			"phone":  "306-616-9023",
+			"comments": "I am the LAW",
+			"email": "IAmtheLaw@hotmail.com",
+			"password": "3Bringusbrongus",
+			"isAdmin": true
+		}
+	]
+}
